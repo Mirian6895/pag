@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+
+
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cafe Santa Cruz - Restaurante</title>
+    <meta name="description" content="Resto">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+</head>
+<body data-spy="scroll" data-target="#navbar" class="static-layout">
+	<div id="side-nav" class="sidenav">
+	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
+	
+	<div class="sidenav-content">
+		<p>
+			Kuncen WB1, Wirobrajan 10010, DIY
+		</p>
+		<p>
+			<span class="fs-16 primary-color">(+503) 22518308</span>
+		</p>
+		<p>info@yourdomain.com</p>
+	</div>
+</div>	<div id="side-search" class="sidenav">
+	<a href="javascript:void(0)" id="side-search-close">&times;</a>
+	<div class="sidenav-content">
+		<form action="">
+
+			<div class="input-group md-form form-sm form-2 pl-0">
+			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+			  <div class="input-group-append">
+			    <button class="input-group-text red lighten-3" id="basic-text1">
+			    	<i class="fas fa-search text-grey" aria-hidden="true"></i>
+			    </button>
+			  </div>
+			</div>
+
+		</form>
+	</div>
+	
+ 	
+</div>	<div id="canvas-overlay"></div>
+	<div class="boxed-page">
+		<nav id="navbar-header" class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="/">
+            <img src="img/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-between">
+                <li class="nav-item only-desktop">
+                    <a class="nav-link" id="side-nav-open" href="#">
+                        <span class="lnr lnr-menu"></span>
+                    </a>
+                </li>
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Inicio<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bienvenido">Hacerca de</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Especialidad de la casa
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#pupusas">Pupusas</a>
+                          <a class="dropdown-item" href="#almuerzo">Almuerzos ejecutivos</a>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+            
+            <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="#">
+                <img src="img/logo.png" alt="">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-between">
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#equipo">Equipo</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#reservacion">Reservacion</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+                    </li>
+                </div>
+                <li class="nav-item">
+                    <a id="side-search-open" class="nav-link" href="#">
+                        <span class="lnr lnr-magnifier"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>		<div class="hero">
+  <div class="container">
+	<div class="row d-flex align-items-center">
+		<div class="col-lg-6 hero-left">
+		    <h1 class="display-4 mb-5">Vive, Rie, Sueña <br> Con Nosotros!</h1>
+		    <div class="mb-2">
+		    	<a class="btn btn-primary btn-shadow btn-lg" href="#" name="bie" role="button">Explore Menu</a>
+			    <a class="btn btn-icon btn-lg" href="https://player.vimeo.com/video/33110953" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true">
+			    	<span class="lnr lnr-film-play"></span>
+			    	Play Video
+			    </a>
+		    </div>
+		   
+		    <ul class="hero-info list-unstyled d-flex text-center mb-0">
+		    	<li class="border-right">
+		    		<span class="lnr lnr-rocket"></span>
+		    		<h5>
+		    			Rapida entrega.
+		    		</h5>
+		    	</li>
+		    	<li class="border-right">
+		    		<span class="lnr lnr-leaf"></span>
+		    		<h5>
+		    			Ingredientes Frescos
+		    		</h5>
+		    	</li>
+		    	<li class="">
+		    		<span class="lnr lnr-bubble"></span>
+		    		<h5>
+		    			Delivery
+		    		</h5>
+		    	</li>
+		    </ul>
+
+	    </div>
+	    <div class="col-lg-6 hero-right">
+	    	<div class="owl-carousel owl-theme hero-carousel">
+			    <div class="item">
+			    	<img class="img-fluid" src="img/hero-1.jpg" alt="">
+			    </div>
+			    <div class="item">
+			    	<img class="img-fluid" src="img/hero-2.jpg" alt="">
+			    </div>
+			    <div class="item">
+			    	<img class="img-fluid" src="img/hero-3.jpg" alt="">
+			    </div>
+			</div>
+	    </div>
+	</div>
+  </div>
+</div>		<!-- Welcome Section -->
+<section id="gtco-welcome" class="bg-white section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-sm-5 img-bg d-flex shadow align-items-center justify-content-center justify-content-md-end img-2" style="background-image: url(img/hero-2.jpg);">
+                    
+                </div>
+                <div class="col-sm-7 py-5 pl-md-0 pl-4">
+                    <div class="heading-section pl-lg-5 ml-md-5">
+                        <span class="subheading">
+                           <a href="" id="bienvenido"></a> Hacerca de 
+                        </span>
+                        <h2>
+                            Bienvenidos a Cafe Santa Cruz
+                        </h2>
+                    </div>
+                    <div class="pl-lg-5 ml-md-5">
+                        <p>Espectacular ambiente para disfrutar en familia, amigos y degustar de su variedad de bebidas frías y calientes, postres, pupusas de especialidad y asados.
+                            Disfruta de un lugar mágico a unos minutos de San Salvador, donde encontraras alegría, pasión por el servicio y una buena comida.</p>
+                        <h3 class="mt-5">Te ofrecemos:</h3>
+                        <div class="row">
+                            <div class="col-4">
+                                <a href="#" class="thumb-menu">
+                                    <img class="img-fluid img-cover" src="img/ambiente.jpg" />
+                                    <h6>Ambiente Familiar</h6>
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="#" class="thumb-menu">
+                                    <img class="img-fluid img-cover" src="img/fiesta.jpg" />
+                                    <h6>Celebracion de eventos</h6>
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="#" class="thumb-menu">
+                                    <img class="img-fluid img-cover" src="img/foto.jpg"/>
+                                    <h6>LLevate un recuerdo</h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Welcome Section -->		<!-- Special Dishes Section -->
+<section id="gtco-special-dishes" class="bg-grey section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading" name="">
+                  Especialidades
+                </span>
+                <h2>
+                    Especilidades
+                </h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center py-5">
+                    <h2 class="special-number">01.</h2>
+                    <div class="dishes-text">
+                        <h3><a id="pupusas"></a><br> Pupusas</h3>
+                        <p class="pt-3">Disfruta de nuestras variedades de pupusas, pollo, hongo, ayote, revueltas, con loroco y no tan peculiares sabores cochinito, conejo, concha, pescado.</p>
+                        <h3 class="special-dishes-price">$1.25</h3>
+                        <a href="#" class="btn-primary mt-3">book a table</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
+                    <img src="img/pupusa.jpg" alt="" class="img-fluid shadow w-100">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center order-2 order-md-1 mt-4 mt-md-0">
+                    <img src="img/ejecutivo.jpg" alt="" class="img-fluid shadow w-100">
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center order-1 order-md-2 py-5">
+                    <h2 class="special-number">02.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Almuerzos Ejecutivos</span><a href="#" id="almuerzo"></a></h3>
+                        <p class="pt-3">Didfruta de los deliciosos platillos que se encuentran a disposicion, churrascos, banquetes, asados y mas.</p>
+                        <h3 class="special-dishes-price">$15.00</h3>
+                        <a href="#" class="btn-primary mt-3">book a table <span><i class="fa fa-long-arrow-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Special Dishes Section -->		<!-- Menu Section -->
+<section id="gtco-menu" class="section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <div class="heading-section text-center">
+                        <span class="subheading">
+                            Especialidades
+                        </span>
+                        <h2>
+                           <a href="#menu" id="menu"></a> Nuestro Menu
+                        </h2>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Desayunos</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/desallunos.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Desayuno tipico</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$8.00</h4>
+                                </div>
+                            </div>
+                            <p>A lo salvadoreño huevos revueltos, frijoles y platano.</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/desa.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Croasan Santa Cruz</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$5.50</h4>
+                                </div>
+                            </div>
+                            <p>Necesitas comida ligera, degusta los delicioso croasan de huevo, jamon o pollo.</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/desallunos.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4><a href="#" id=""></a>   Desayuno ejecutivo</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$15</h4>
+                                </div>
+                            </div>
+                            <p>Incluye nachos, homelet, platanos en gloria, frijoles refritos y cafe.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Almuerzos</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/pollo.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Pollo a la Ilopango</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$18</h4>
+                                </div>
+                            </div>
+                            <p>Disfruta de pollo a la plancha, sopa de gallina india, o nuestras especialidades gurmet.</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/churrasco.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Churrasco Tipico</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$20</h4>
+                                </div>
+                            </div>
+                            <p>Puedes disfrutas acompañado de chorizo, arroz o casamiento, chirimol, queso y mas.</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/hamburguesa.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Comida Rapida</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$5.00</h4>
+                                </div>
+                            </div>
+                            <p>Para los peques se puede desgustar, hamburguesas, hot dogs, tortas mexicanas, papas fritas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Postres y Bebidas</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/postres.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Tres leches</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$5.00 </h4>
+                                </div>
+                            </div>
+                            <p>jugos Naturales</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/limonadas.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Jugos naturales</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$2.50</h4>
+                                </div>
+                            </div>
+                            <p>De naranaja, apio, limonada rosada.</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/Mate.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Frape</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$1.75</h4>
+                                </div>
+                            </div>
+                            <p>Tambien si eres amante del cafe puedes probar el especial de la casa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of menu Section -->		<!-- Testimonial Section-->
+<section id="gtco-testimonial" class="overlay bg-fixed section-padding" style="background-image: url(img/testi-bg.jpg);">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                   <a href="" id=""></a> Testimonio
+                </span>
+                <h2>
+                    Clientes Felices
+                </h2>
+            </div>
+            <div class="row">
+                <!-- Testimonial -->
+                <div class="testi-content testi-carousel owl-carousel">
+                    <div class="testi-item">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <p class="testi-text">Café Santa Cruz es un lugar lindo desde donde se puede apreciar la bella naturaleza que Dios ha creado para nuestros ojos.</p>
+                        <p class="testi-author">Claudia Navarro</p>
+                        <p class="testi-desc">Ministra de Cultura<span> Gobierno de El Salvador</span></p>
+                    </div>
+                    <div class="testi-item">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <p class="testi-text">Excelente atención y mucha amabilidad, recomendado.</p>
+                        <p class="testi-author">Maria Fernanda</p>
+                        <p class="testi-desc">Cliente<span> El Salvador</span></p>
+                    </div>
+                </div>
+                <!-- End of Testimonial -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Testimonial Section-->		<!-- Team Section -->
+<section id="gtco-team" class="bg-white section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    Specialties
+                </span>
+                <h2><a href="" id="equipo"></a> Nuestro Equipo
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/chef.jpg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">Chef de alta cocina</h4>
+                
+                            <ul class="list-inline mb-0 team-social-links">
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/pet.jpg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">Pet Frendly</h4>
+                            <ul class="list-inline mb-0 team-social-links">
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/chef-3.jpg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">Modernas instalaciones</h4>
+                            <ul class="list-inline mb-0 team-social-links">
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Team Section -->		<!-- Reservation Section -->
+<section id="gtco-reservation" class="bg-fixed bg-white section-padding overlay" style="background-image: url(img/reservation-bg.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="section-content bg-white p-5 shadow">
+                    <div class="heading-section text-center">
+                        <span class="subheading" name="Reservacion">
+                           <a href="" id="reservacion"></a> Reservación 
+                        </span>
+                        <h2>
+                            Haz tu Reservación
+                        </h2>
+                    </div>
+                    <form method="post" name="contact-us" action="">
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Nombre">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Celular">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4" placeholder="Dia" />
+                                    <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
+                                        <div class="input-group-text">
+                                            <span class="lnr lnr-calendar-full"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 form-group">
+                                <div class="input-group date" id="datetimepicker3" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker3" placeholder="Hora" />
+                                    <div class="input-group-append" data-target="#datetimepicker3" data-toggle="datetimepicker">
+                                        <div class="input-group-text">
+                                            <span class="lnr lnr-clock"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 form-group">
+                                <select class="form-control" id="selectPerson">
+                                    <option></option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                 
+                            <div class="col-md-12 form-group">
+                                <textarea class="form-control" id="message" name="message" rows="6" placeholder="Su Mensaje ..."></textarea>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Enviar mensaje</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<!-- End of Reservation Section -->		<footer class="mastfoot pb-5 bg-white section-padding pb-0">
+    <div class="inner container">
+         <div class="row">
+         	<div class="col-lg-4">
+         		<div class="footer-widget pr-lg-5 pr-0">
+         			<img src="img/logo.png" class="img-fluid footer-logo mb-3" alt="">
+	         		<p>¡Una maravillosa vista del Lago de Ilopango, cerca de San Salvador! Siguenos en nuestras Redes Sociales.</p>
+	         		<nav class="nav nav-mastfoot justify-content-start">
+		                <a class="nav-link" href="https://www.facebook.com/CafeSantaCruzsv/photos/?ref=page_internal">
+		                	<i class="fab fa-facebook-f"></i>
+		                </a>
+		                <a class="nav-link" href="https://twitter.com/YaniseGaleas/status/1403864371290329094">
+		                	<i class="fab fa-twitter"></i>
+		                </a>
+		                <a class="nav-link" href="https://www.instagram.com/cafesantacruzsv/?hl=es">
+		                	<i class="fab fa-instagram"></i>
+		                </a>
+		            </nav>
+         		</div>
+         		
+         	</div>
+         	<div class="col-lg-4">
+         		<div class="footer-widget px-lg-5 px-0">
+         			<h4>Horarios de Atención</h4>
+	         		<ul class="list-unstyled open-hours">
+		                <li class="d-flex justify-content-between"><span>Lunes a Viernes</span><span>11:00 - 19:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Sábado y Domingo</span><span>7:00 - 19:00</span></li>
+		              
+		              </ul>
+         		</div>
+         		
+         	</div>
+
+         	<div class="col-lg-4">
+         		<div class="footer-widget pl-lg-5 pl-0">
+         			<h4>Buscamos Chef</h4>
+	         		<p>Quieres formar parte de nuestro equipo y te encanta la cocina aplica hoy mismo enviando tu C.V. a nuestro correo.</p>
+	         		<form id="newsletter">
+						<div class="form-group">
+							<input type="email" class="form-control" id="emailNewsletter" aria-describedby="emailNewsletter" placeholder="cafesantacruz2016@gmail.com">
+						</div>
+						<button type="submit" class="btn btn-primary w-100">Enviar</button>
+					</form>
+         		</div>
+         		
+         	</div>
+         	<div class="col-md-12 d-flex align-items-center">
+         		<p class="mx-auto text-center mb-0">Copyright 2022. All Right Reserved. Design by Mirian Beltran</a></p>
+         	</div>
+            
+        </div>
+    </div>
+</footer>	</div>
+</div>
+	<!-- External JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+	<script src="vendor/bootstrap/popper.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js "></script>
+	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+	<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+
+	<!-- Main JS -->
+	<script src="js/app.min.js "></script>
+</body>
+</html>
